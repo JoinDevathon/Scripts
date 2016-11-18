@@ -1,0 +1,25 @@
+{
+  "name": "Devathon-Scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create-spreadsheet.js",
+  "dependencies": {
+    "google-spreadsheet": "^2.0.3",
+    "mysql": "^2.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoinDevathon/Scripts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoinDevathon/Scripts/issues"
+  },
+  "homepage": "https://github.com/JoinDevathon/Scripts#readme"
+}

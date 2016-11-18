@@ -1,0 +1,7 @@
+*.iml
+.idea/
+
+npm-debug.log
+node_modules/
+
+service-account-details.json
