@@ -100,7 +100,7 @@ function getResults() {
             return function(callback) {
                 a.waterfall([
                     function (callback) {
-                        fetch(`https://api.github.com/users/${row.name}`, {
+                        fetch(`https://api.github.com/users/${row.name}?client_id=6a04bce123b63cf0917a&client_secret=6fb692abad5761d25d6515d447f323b9d48a33c4`, {
                             method: 'GET',
                             headers: {
                                 'Accept': 'application/json',
