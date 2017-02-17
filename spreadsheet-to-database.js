@@ -48,7 +48,7 @@ function getResults() {
                 name: row.si,
                 reviews: [
                     {
-                        reviewer: 36, // codebeasty
+                        reviewer: 28, // codebeasty
                         Creativity: {
                             value: row['codebeastycreativityrating1-10'],
                             text: row['codebeastycreativityresponse']
@@ -63,7 +63,7 @@ function getResults() {
                         }
                     },
                     {
-                        reviewer: 206, // thenickparks
+                        reviewer: 110, // thenickparks
                         Creativity: {
                             value: row['nickparkscreativityrating1-10'],
                             text: row['nickparkscreativityresponse']
@@ -78,7 +78,7 @@ function getResults() {
                         }
                     },
                     {
-                        reviewer: 455, // kazzaBABEgamer
+                        reviewer: 114, // kazzaBABEgamer
                         Creativity: {
                             value: row['mckellecreativityrating1-10'],
                             text: row['mckellecreativityresponse']
