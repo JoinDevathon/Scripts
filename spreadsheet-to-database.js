@@ -112,7 +112,7 @@ function getResults() {
                         connection.query('SELECT `id` FROM `users` WHERE `github_id` = ?', [id], callback);
                     },
                     function (rows, thing, callback) {
-                        return callback(null, Math.floor(Math.random() * 20000) || rows[0].id);
+                        return callback(null, rows[0].id);
                     },
                     function (id, callback) {
                         connection.query('INSERT INTO `user_entry` (`user`,`contest`,`url`) VALUES (?,?,?)', [id, 1, `https://github.com/JoinDevathon/${row.name}-2016`], callback);
